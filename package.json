@@ -6,22 +6,43 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "data:import": "tsx src/seeder/seed",
+    "data:destroy": "tsx src/seeder/destroy"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.2",
+    "framer-motion": "^10.16.4",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.0",
+    "next": "^14.0.1",
+    "next-auth": "^4.24.4",
+    "nodemailer": "^6.9.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.6"
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^4.11.0",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.1.3",
+    "usehooks-ts": "^2.9.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/bcryptjs": "^2.4.4",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.13",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-google-recaptcha": "^2.1.7",
+    "@types/react-modal": "^3.16.2",
+    "@types/request-ip": "^0.0.40",
     "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
     "postcss": "^8",
     "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.6"
+    "tsx": "^3.13.0",
+    "typescript": "^5"
   }
 }
